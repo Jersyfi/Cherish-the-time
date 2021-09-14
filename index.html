@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherish the time</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="d-flex h-100 justify-content-center align-items-center">
+        <div class="d-flex justify-content-center align-items-center hs-250 text-center">
+            <div id="start">
+                <h1>Cherish the time</h1>
+                <p class="lead">Estimate the given time of <span id="time" class="fw-bold">X</span> s.</p>
+
+                <div role="button" id="btnStart" class="buzzer btn-success m-auto d-flex flex-column justify-content-center align-items-center p-2 rounded-circle">
+                    <p class="mb-0 fs-4 fw-bold text-uppercase">Start</p>
+                </div>
+            </div>
+
+            <div id="timer" style="display: none;">
+                <p id="go" class="puls fw-bold">X</p>
+            </div>
+        
+            <div id="stop" style="display: none;">
+                <div role="button" id="btnStop" class="buzzer btn-danger m-auto d-flex flex-column justify-content-center align-items-center p-2 rounded-circle">
+                    <p class="mb-0 fs-4 fw-bold text-uppercase" id="stopText">Stop</p>
+                </div>
+            </div>
+        
+            <div id="restart" style="display: none;">
+                <p id="prop" class="fs-6 mb-0">Prop</p>
+                <p class="lead mb-0">Your time difference is:</p>
+                <p class="lead fs-3"><span id="diff" class="fw-bold">X</span></p>
+
+                <button type="button" id="btnRestart" class="btn btn-secondary btn-sm text-uppercase rounded-pill">Start anew</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

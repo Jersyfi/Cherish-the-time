@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+}
+
+.hs-250 {
+    height: 250px;
+}
+
+.buzzer {
+    height: 150px;
+    width: 150px;
+    border: 20px solid #FFFFFF80;
+    transition: all .5s;
+}
+
+.buzzer:hover {
+    border-color: #0000005e;
+}
+
+.puls {
+    animation: pulsKey 1s infinite;
+}
+
+@keyframes pulsKey {
+    from {
+        font-size: 3.8rem;
+        text-shadow: 0px 0px 50px;
+    } to {
+        font-size: 1.8rem;
+        text-shadow: 0px 0px 25px rgb(0 0 0 / 0%);
+    }
+}
