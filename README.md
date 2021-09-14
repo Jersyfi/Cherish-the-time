@@ -5,5 +5,5 @@ Estimate the randomly generated given time. Just for fun.
 
 What is your time difference?
 
-View and test this project directly on GitHub Pages.
-https://jersyfi.github.io/Cherish-the-time/
+View and test this project directly on GitHub Pages.\
+[Cherish the time](https://jersyfi.github.io/Cherish-the-time/)
